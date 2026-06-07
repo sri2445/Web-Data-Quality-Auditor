@@ -1,0 +1,5 @@
+URL,Quality_Score,Decision,Justifications
+https://www.wikipedia.org/,85,Index / Keep,Malformed URL structure detected
+https://example.com/blog/page/2?utm_source=twitter&ref=bloghome,35,Filter / Exclude from Index,Contains low-value tracking/marketing parameters; Points to non-unique archive or pagination loop; Malformed URL structure detected
+https://example.com/invalid--path--name.html/,85,Index / Keep,Malformed URL structure detected; HTTP Error: Status Code 404
+https://httpbin.org/status/404,85,Index / Keep,Malformed URL structure detected; HTTP Error: Status Code 404
